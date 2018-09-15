@@ -17,12 +17,12 @@ public class TestController {
     }
 
     @PutMapping("/info")
-    public String put(){
+    public String put() {
         return "Put!";
     }
 
     @DeleteMapping("info")
-    public String delete(){
+    public String delete() {
         return "Delete!";
     }
 
